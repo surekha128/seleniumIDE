@@ -1,0 +1,236 @@
+{
+  "id": "1693481a-2be3-44c5-ad56-94abd9121a77",
+  "version": "2.0",
+  "name": "wat",
+  "url": "https://www.wcht.org.uk",
+  "tests": [{
+    "id": "577eb083-a97a-432d-b1c7-ed5547cc3594",
+    "name": "wat",
+    "commands": [{
+      "id": "18582d4a-0375-45ec-a803-f9bc2087608d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b127b4-7483-498d-9b89-67f77d991edb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e19cbcf-3830-43d2-9f73-14bc99005e99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your home",
+      "targets": [
+        ["linkText=Your home", "linkText"],
+        ["css=.header__nav-link-object:nth-child(1) .header__nav-area-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Your home')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/your-home')])[2]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3b31f3-061a-44d4-b67f-683c24a11bfd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your community",
+      "targets": [
+        ["linkText=Your community", "linkText"],
+        ["css=.header__nav-link-object:nth-child(2) .header__nav-area-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Your community')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/Your-Community')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda070e5-d830-4fc4-bd79-96ee67757b9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__nav-link-object:nth-child(3) > .header__nav-link-holder",
+      "targets": [
+        ["css=.header__nav-link-object:nth-child(3) > .header__nav-link-holder", "css:finder"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93abcf79-1943-424e-8380-1c7c625d2567",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About us",
+      "targets": [
+        ["linkText=About us", "linkText"],
+        ["css=.header__nav-link-object:nth-child(4) .header__nav-area-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'About us')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/About-Us')])[2]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af3e1af-d186-4f1d-a6dd-b640ff4580c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help & support",
+      "targets": [
+        ["linkText=Help & support", "linkText"],
+        ["css=.header__nav-link-object:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help & support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Help-support')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help & support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d21a0820-6df7-411b-a663-0dd73d979373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(1) > div",
+      "targets": [
+        ["css=.topic:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[2]/div/div/ul/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdbe1c4f-2cf9-479a-b434-166a910c4fe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(2) > div",
+      "targets": [
+        ["css=.topic:nth-child(2) > div", "css:finder"],
+        ["xpath=//div[2]/div/div/ul/li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "737b0e46-b090-4bfd-8187-560d5f3856ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(3) > div",
+      "targets": [
+        ["css=.topic:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[2]/div/div/ul/li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45922663-76da-4770-b279-6fb507bab5a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(4) > div",
+      "targets": [
+        ["css=.topic:nth-child(4) > div", "css:finder"],
+        ["xpath=//div[2]/div/div/ul/li[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b0dba4-5193-44b4-9908-48a374b51465",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(5) > div",
+      "targets": [
+        ["css=.topic:nth-child(5) > div", "css:finder"],
+        ["xpath=//li[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a564dc3-8af2-4726-849b-6357eabc06fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(6) > div",
+      "targets": [
+        ["css=.topic:nth-child(6) > div", "css:finder"],
+        ["xpath=//li[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52d77fe8-0b27-4497-9768-b0c0560d4cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(7) > div",
+      "targets": [
+        ["css=.topic:nth-child(7) > div", "css:finder"],
+        ["xpath=//li[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3680e26d-62a1-4019-aa4c-7d655c1eb11b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(8) > div",
+      "targets": [
+        ["css=.topic:nth-child(8) > div", "css:finder"],
+        ["xpath=//li[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f928326d-910b-4e02-b7a1-877a9869b804",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic:nth-child(9) > div",
+      "targets": [
+        ["css=.topic:nth-child(9) > div", "css:finder"],
+        ["xpath=//li[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "693f84cd-9f6c-457b-a8ab-781848ea1951",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Email us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7df685a-2232-408e-98ad-33a47aafc849",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Find us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15dbb2c0-40b1-46b2-a21d-5e51a215f809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__active",
+      "targets": [
+        ["css=.tabs__active", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Find us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72febd3e-cf3c-45ff-9f67-4bbc0f5ae73c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--tabs:nth-child(1)",
+      "targets": [
+        ["css=.btn--tabs:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Call us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55d31973-f524-4404-a678-236f4cf52a17",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["577eb083-a97a-432d-b1c7-ed5547cc3594"]
+  }],
+  "urls": ["https://www.wcht.org.uk/"],
+  "plugins": []
+}

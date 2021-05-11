@@ -1,0 +1,428 @@
+{
+  "id": "81382ce0-c3bd-4a90-8376-15b33f43c73a",
+  "version": "2.0",
+  "name": "barclays",
+  "url": "https://www.barclays.co.uk",
+  "tests": [{
+    "id": "0224aab2-c493-4bc9-ac5e-933fcf666925",
+    "name": "barclaystest",
+    "commands": [{
+      "id": "60e02904-5bb0-4f0c-80d4-664eb286e2cf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "babf28bb-d07f-41ce-9d6f-85e3f1e6927d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef5c713b-647c-45c6-a3c0-25cf8171c4f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Premier",
+      "targets": [
+        ["linkText=Premier", "linkText"],
+        ["css=li:nth-child(2) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Premier')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/premier-banking')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Premier')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "861b94ae-dd4c-4e05-90e4-a0a5cb75d8b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business Banking",
+      "targets": [
+        ["linkText=Business Banking", "linkText"],
+        ["css=li:nth-child(3) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Business Banking')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/business-banking')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Business Banking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb82969b-c2b4-468b-88f4-db3f3aade534",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wealth Management",
+      "targets": [
+        ["linkText=Wealth Management", "linkText"],
+        ["css=li:nth-child(4) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Wealth Management')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/wealth-management')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wealth Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47bcac4b-0c62-42c8-ad79-6b46da9000f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Corporate",
+      "targets": [
+        ["linkText=Corporate", "linkText"],
+        ["css=li:nth-child(5) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.barclayscorporate.com/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d835ac7-dfb5-4445-a127-5b808a556853",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Global Connectivity",
+      "targets": [
+        ["linkText=Global Connectivity", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Global Connectivity')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global Connectivity')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bbe2de4-cece-440a-9171-b3b00469762b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Global Connectivity",
+      "targets": [
+        ["linkText=Global Connectivity", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Global Connectivity')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global Connectivity')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a084b9f7-05da-4681-bd1d-eb9f3cbc5233",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/contact-us/')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6acc24a8-1af0-4739-8b62-36f21a6ffae4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online banking",
+      "targets": [
+        ["linkText=Online banking", "linkText"],
+        ["css=li > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Online banking')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/online-banking/')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online banking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdff2c70-16ad-4a50-b406-1108eb382d54",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,394)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc1981cd-e5ca-4955-9fa6-135ccf61e79e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Global Connectivity",
+      "targets": [
+        ["linkText=Global Connectivity", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Global Connectivity')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global Connectivity')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f5ddeb1-7b2a-438c-9369-39c63a03c927",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.main-nav > ul > li:nth-child(2) > a",
+      "targets": [
+        ["css=.main-nav > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Global Connectivity')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global Connectivity')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfe6acff-e252-4c19-acb3-d0e0fe9d78a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Industry Expertise",
+      "targets": [
+        ["linkText=Industry Expertise", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Industry Expertise')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Industry Expertise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "993656ed-03f3-46bc-b26f-aaa8adf9776e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Industry Expertise",
+      "targets": [
+        ["linkText=Industry Expertise", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Industry Expertise')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Industry Expertise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11c61ec-5012-4a91-aa12-020c572c205b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Barclaycard Business",
+      "targets": [
+        ["linkText=Barclaycard Business", "linkText"],
+        ["css=li:nth-child(3) > .segment-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Barclaycard Business')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.barclaycard.co.uk/business')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Barclaycard Business')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65e5a46-0f02-435a-aaf1-972b92f278f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mainnav .aem-navigation__item:nth-child(1) path:nth-child(1)",
+      "targets": [
+        ["css=#mainnav .aem-navigation__item:nth-child(1) path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a83b05c-8d3d-42f3-8d39-1a32c9960762",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-switch-nav__item:nth-child(1) .aem-switch-item__text",
+      "targets": [
+        ["css=.aem-switch-nav__item:nth-child(1) .aem-switch-item__text", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Personal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4486b88-5454-42b5-9a32-a1651ee44b68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-button--small > .m-button__text",
+      "targets": [
+        ["css=.m-button--small > .m-button__text", "css:finder"],
+        ["xpath=//div[2]/div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf28583-0f32-4bfb-a69a-239e28adfdcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-button__text-register",
+      "targets": [
+        ["css=.aem-button__text-register", "css:finder"],
+        ["xpath=//div[2]/div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "760ff162-3711-44ca-adec-3fde508941e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-button__text-register",
+      "targets": [
+        ["css=.aem-button__text-register", "css:finder"],
+        ["xpath=//div[2]/div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "255abe79-74e1-45da-a1cf-dce31d3cb6a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How do I choose a username?",
+      "targets": [
+        ["linkText=How do I choose a username?", "linkText"],
+        ["css=.article-snippet:nth-child(2) .collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8509c6d-f3de-41c2-b3ee-10685c8b3e03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How do I choose a passcode?",
+      "targets": [
+        ["linkText=How do I choose a passcode?", "linkText"],
+        ["css=.article-snippet:nth-child(3) .collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[3]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e6767a-2c72-46f0-b007-ca5c40b03bf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How do I choose a memorable word?",
+      "targets": [
+        ["linkText=How do I choose a memorable word?", "linkText"],
+        ["css=.article-snippet:nth-child(4) .collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[4]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[4]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21bdde99-f0d9-4011-afb5-89a0ea8aec1b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=When do I use my username, passcode and memorable word?",
+      "targets": [
+        ["linkText=When do I use my username, passcode and memorable word?", "linkText"],
+        ["css=.article-snippet:nth-child(5) .collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[5]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[5]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c5876e7-7e22-4ab9-8603-f07a400ec680",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registered for Barclaycard online servicing but forgotten your login details?",
+      "targets": [
+        ["linkText=Registered for Barclaycard online servicing but forgotten your login details?", "linkText"],
+        ["css=.article-snippet:nth-child(6) .collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[6]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[6]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea83ee6c-bd5c-43e9-8e2e-a42c85e6c3a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Where can I find my credit limit?",
+      "targets": [
+        ["linkText=Where can I find my credit limit?", "linkText"],
+        ["css=.collapsed", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de9fe50-1643-4626-933e-6a61675205cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How do I choose a username?",
+      "targets": [
+        ["linkText=How do I choose a username?", "linkText"],
+        ["css=.article-snippet:nth-child(2) .toggle", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/div/div/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e045dc-1a1f-435d-b18e-41e2f75ba60a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(1) > .aem-nav-item > .aem-nav-item__head .m-button__icon",
+      "targets": [
+        ["css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(1) > .aem-nav-item > .aem-nav-item__head .m-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c40be24-4b34-474e-b03e-bd3e29f8bf40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-nav-button--rotate-icon-cw-180 path:nth-child(1)",
+      "targets": [
+        ["css=.aem-nav-button--rotate-icon-cw-180 path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9016b2d2-d053-45fc-88db-7138c82c903f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(2) > .aem-nav-item > .aem-nav-item__head path:nth-child(1)",
+      "targets": [
+        ["css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(2) > .aem-nav-item > .aem-nav-item__head path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "52056775-698e-426a-93ea-9d6aca641358",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mainnav > .aem-navigation:nth-child(1) > .aem-navigation__item:nth-child(2) > .aem-nav-item:nth-child(1) > .aem-nav-item__body:nth-child(2) > .aem-navigation:nth-child(1) > .aem-navigation__item:nth-child(1) .aem-nav-button__text:nth-child(1)",
+      "targets": [
+        ["css=#mainnav > .aem-navigation:nth-child(1) > .aem-navigation__item:nth-child(2) > .aem-nav-item:nth-child(1) > .aem-nav-item__body:nth-child(2) > .aem-navigation:nth-child(1) > .aem-navigation__item:nth-child(1) .aem-nav-button__text:nth-child(1)", "css:finder"],
+        ["xpath=//nav[@id='mainnav']/ul/li[2]/div/div[2]/ul/li/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/div/div[2]/ul/li/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Existing customer homepage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c7a066-3db7-4dce-be58-3fefa07b5e1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(3) .m-button__icon",
+      "targets": [
+        ["css=#mainnav > .aem-navigation > .aem-navigation__item:nth-child(3) .m-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd14b74f-2ed8-4322-a893-b1818a847301",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-navigation__item:nth-child(4) .aem-nav-button--text",
+      "targets": [
+        ["css=.aem-navigation__item:nth-child(4) .aem-nav-button--text", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//nav[@id='mainnav']/ul/li[4]/div/div/button", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[4]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Credit Confident')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a466675-f329-4816-8a9a-4156434d46c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0224aab2-c493-4bc9-ac5e-933fcf666925"]
+  }],
+  "urls": ["https://www.barclays.co.uk/"],
+  "plugins": []
+}

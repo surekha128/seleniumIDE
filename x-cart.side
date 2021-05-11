@@ -1,0 +1,255 @@
+{
+  "id": "caf97a63-0d4a-4bdc-918b-1fb17e315fb2",
+  "version": "2.0",
+  "name": "x-cart",
+  "url": "https://www.x-cart.com",
+  "tests": [{
+    "id": "c7595180-c7c9-4e88-b66f-9b9013a1e18d",
+    "name": "x-cart",
+    "commands": [{
+      "id": "d54feeb8-5828-4b64-a1b8-f54754b8d538",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21f639ed-5b28-4eb8-a2e5-7ec8f89ed99d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b205c7ed-03c3-40dd-8f48-aee06453c05f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Features",
+      "targets": [
+        ["linkText=Features", "linkText"],
+        ["css=.top-menu__link:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Features')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/ecommerce-solutions.html')])[3]", "xpath:href"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a14a2766-65e9-4905-8636-8d36325d8a9f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Enterprise Solutions",
+      "targets": [
+        ["linkText=Enterprise Solutions", "linkText"],
+        ["css=.top-menu__link:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Enterprise Solutions')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/enterprise-ecommerce-solution.html')])[4]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85720e86-7539-41aa-b588-cb1434c43945",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Enterprise Services",
+      "targets": [
+        ["linkText=Enterprise Services", "linkText"],
+        ["css=.top-menu__link:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Enterprise Services')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/enterprise-ecommerce-solution.html')])[6]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4c5ae77-1fbb-4d25-bd62-90242412ba19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.top-menu__link:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Blog')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/blog')])[7]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3929cd04-d370-46ab-95f8-142f86ed1da0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-resources .top-menu__sublink:nth-child(1) span",
+      "targets": [
+        ["css=.top-menu__m-resources .top-menu__sublink:nth-child(1) span", "css:finder"],
+        ["xpath=//li[5]/ul/li/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Knowledge Base')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88135d2e-83b7-4ea4-9b28-9542ce403d35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1702)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa51ae32-9fce-444a-a6a2-05adde11129e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__home__url > span",
+      "targets": [
+        ["css=.header__home__url > span", "css:finder"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Go to XCart')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3634",
+      "windowTimeout": 2000
+    }, {
+      "id": "2ff11e18-c732-4916-9e21-85176e40f533",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3634}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3855d86e-2ce9-4212-8362-03dc5f91e0c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Features",
+      "targets": [
+        ["linkText=Features", "linkText"],
+        ["css=.top-menu__link:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Features')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/ecommerce-solutions.html')])[3]", "xpath:href"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1150e699-3ede-4830-b7a8-fa2575fb63b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-solutions .top-menu__sublink:nth-child(5) span",
+      "targets": [
+        ["css=.top-menu__m-solutions .top-menu__sublink:nth-child(5) span", "css:finder"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'International Solutions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dcac10d-407a-4d94-a75f-dffc5b0dd643",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Enterprise Services",
+      "targets": [
+        ["linkText=Enterprise Services", "linkText"],
+        ["css=.top-menu__link:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Enterprise Services')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.x-cart.com/enterprise-ecommerce-solution.html')])[6]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d690e2d-5b05-4f7f-94af-ea49f4fe0fea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-services .top-menu__sublink:nth-child(4) span",
+      "targets": [
+        ["css=.top-menu__m-services .top-menu__sublink:nth-child(4) span", "css:finder"],
+        ["xpath=//li[3]/ul/li/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mobile Apps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "748b17af-3777-4fc9-bc8b-79a3f36e109a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9.333333015441895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fb8002f-554f-4027-a577-5a369d745069",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-menu__m-services .top-menu__sublink:nth-child(6) span",
+      "targets": [
+        ["css=.top-menu__m-services .top-menu__sublink:nth-child(6) span", "css:finder"],
+        ["xpath=//li[3]/ul/li/ul/li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'App Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "110bd6a0-f29f-435a-9ec1-773bbbd4d9f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,351.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "802cfc03-0188-4f8a-981b-f65d801c3dd8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1414)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83e70ee0-ef8a-41a2-9526-43e68ad75b3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.f-p-b .\\_btn",
+      "targets": [
+        ["css=.f-p-b .\\_btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View category')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content_16']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/addons/taxes/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9a63e5-a3e6-441e-8c61-364c298c2386",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,232)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5503cadc-0bb1-4f3a-81a6-7c4315febd6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form-1620669810735 > .filter span",
+      "targets": [
+        ["css=#form-1620669810735 > .filter span", "css:finder"],
+        ["xpath=//form[@id='form-1620669810735']/div[4]/div[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div[2]/div/form/div[4]/div[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b9ad82-ff2c-408d-b033-328058f98d43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#form-1620669810735 #tag-id > .filters__item:nth-child(1) > .filters__label",
+      "targets": [
+        ["css=#form-1620669810735 #tag-id > .filters__item:nth-child(1) > .filters__label", "css:finder"],
+        ["xpath=(//ul[@id='tag-id']/li/label)[32]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div[2]/div/form/div[4]/div[3]/ul/li/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fe4eaf-e1c1-4c95-bb31-c0409853922c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,357.3333435058594)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f90ff03f-a04a-4ae3-a9d9-bf391bbd3280",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c7595180-c7c9-4e88-b66f-9b9013a1e18d"]
+  }],
+  "urls": ["https://www.x-cart.com/"],
+  "plugins": []
+}

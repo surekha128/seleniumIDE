@@ -1,0 +1,279 @@
+{
+  "id": "3b7ffc7e-90a3-43e8-8fa0-e9d9a66bb8d5",
+  "version": "2.0",
+  "name": "nopcommerce",
+  "url": "https://www.nopcommerce.com",
+  "tests": [{
+    "id": "ee696aa8-e331-4eb8-8b58-aa3a5574401f",
+    "name": "nopcommerce",
+    "commands": [{
+      "id": "f7700ffd-cbad-431e-bb1a-d0f1d092d8e3",
+      "comment": "",
+      "command": "open",
+      "target": "/en/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "526fa25a-f252-44f0-a11e-0ded59d06526",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9edc564b-a8b5-4b07-b466-ed209f638bfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop > li:nth-child(1) > span",
+      "targets": [
+        ["css=.desktop > li:nth-child(1) > span", "css:finder"],
+        ["xpath=//html[@id='demo-page']/body/div[6]/header/div/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f292226c-246e-4639-b375-fa3cdb915101",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Store demo",
+      "targets": [
+        ["linkText=Store demo", "linkText"],
+        ["css=.desktop > li:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Store demo')]", "xpath:link"],
+        ["xpath=//html[@id='demo-page']/body/div[6]/header/div/div[2]/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/demo')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Store demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c75835-d7fc-4426-b0eb-f032aecde664",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop > li:nth-child(1) > span",
+      "targets": [
+        ["css=.desktop > li:nth-child(1) > span", "css:finder"],
+        ["xpath=//html[@id='demo-page']/body/div[6]/header/div/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5209d8c-af92-4420-8f4e-6d76ec3984ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Showcase",
+      "targets": [
+        ["linkText=Showcase", "linkText"],
+        ["css=.desktop > li:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Showcase')]", "xpath:link"],
+        ["xpath=//html[@id='demo-page']/body/div[6]/header/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/showcase')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Showcase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ed7607-455c-4b40-854e-20d940c146e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Showcase",
+      "targets": [
+        ["linkText=Showcase", "linkText"],
+        ["css=.desktop > li:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Showcase')]", "xpath:link"],
+        ["xpath=//html[@id='demo-page']/body/div[6]/header/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/showcase')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Showcase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7130f079-f75c-42c2-a48e-03c45d013800",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-filter > .filters-title",
+      "targets": [
+        ["css=.category-filter > .filters-title", "css:finder"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/section/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858d36ac-33b3-4caf-a5cb-27f3d2344be9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-filter li:nth-child(3) .custom-control-label",
+      "targets": [
+        ["css=.category-filter li:nth-child(3) .custom-control-label", "css:finder"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/section/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div[2]/ul/li[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Beauty And Health')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef6dda5d-68e3-46fa-9f1d-de6ff0c08d9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-filter li:nth-child(5) .custom-control-label",
+      "targets": [
+        ["css=.category-filter li:nth-child(5) .custom-control-label", "css:finder"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/section/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div[2]/ul/li[5]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li[5]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Education')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6324a22-bf3f-4aed-a789-666c14897e4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-filter li:nth-child(19) .custom-control-label",
+      "targets": [
+        ["css=.category-filter li:nth-child(19) .custom-control-label", "css:finder"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/section/div/div/div/div/div/div[2]/div[2]/div/div/div[3]/div[2]/ul/li[19]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li[19]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Style And Fashion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "852b791c-d832-47fc-8dbc-28ec35944048",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters-apply > .btn",
+      "targets": [
+        ["css=.filters-apply > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply')]", "xpath:link"],
+        ["xpath=//a[@onclick='filter()']", "xpath:attributes"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/section/div/div/div/div/div/div[2]/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bed3e8b-aa7b-4f35-884e-bca05e44e9d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Features",
+      "targets": [
+        ["linkText=Features", "linkText"],
+        ["css=.desktop > li:nth-child(1) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Features')]", "xpath:link"],
+        ["xpath=//html[@id='showcase-page']/body/div[6]/header/div/div[2]/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/features')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Features')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1c087fb-9dcc-4a17-8318-de77188001ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-lower",
+      "targets": [
+        ["css=.header-lower", "css:finder"],
+        ["xpath=//html[@id='features-page']/body/div[6]/header/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "156d07e1-f776-4028-819a-83bfb8d09a47",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,249.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e0448c6-85f5-43ee-9fd6-8d56835b92f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download nopCommerce",
+      "targets": [
+        ["linkText=Download nopCommerce", "linkText"],
+        ["css=.desktop > li:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download nopCommerce')]", "xpath:link"],
+        ["xpath=//html[@id='features-page']/body/div[6]/header/div/div[2]/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/download-nopcommerce')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download nopCommerce')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b4b6ec-4006-4286-a5fe-b281fbd8fbaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ico-user",
+      "targets": [
+        ["css=.ico-user", "css:finder"],
+        ["xpath=//html[@id='download-nopcommerce-page']/body/div[6]/header/div/div[3]/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f96bae-243d-40b6-b360-6f1c51e1beb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ico-caret",
+      "targets": [
+        ["css=.ico-caret", "css:finder"],
+        ["xpath=//html[@id='download-nopcommerce-page']/body/div[6]/header/div/div[3]/div/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "122233a2-cfc2-4509-9680-68c80d716a1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ico-login",
+      "targets": [
+        ["css=.ico-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//html[@id='download-nopcommerce-page']/body/div[6]/header/div/div[3]/div/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/login?returnUrl=%2Fen%2Fdownload-nopcommerce')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcea3460-4a70-4938-88cd-e52cbc6e14d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop > li:nth-child(1) > span",
+      "targets": [
+        ["css=.desktop > li:nth-child(1) > span", "css:finder"],
+        ["xpath=//html[@id='login-page']/body/div[6]/header/div/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc8c797-7b82-4e32-bc73-35b95b272e8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.language-dropdown-link > span",
+      "targets": [
+        ["css=.language-dropdown-link > span", "css:finder"],
+        ["xpath=//html[@id='login-page']/body/div[6]/header/div/div[3]/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a870a272-c5a1-4100-b5a1-5922a4a28447",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(1) > span",
+      "targets": [
+        ["css=.dropdown-item:nth-child(1) > span", "css:finder"],
+        ["xpath=//html[@id='login-page']/body/div[6]/header/div/div[3]/div[2]/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "672c5f72-6a89-4a32-953c-0080e4dd9651",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ee696aa8-e331-4eb8-8b58-aa3a5574401f"]
+  }],
+  "urls": ["https://www.nopcommerce.com/"],
+  "plugins": []
+}
